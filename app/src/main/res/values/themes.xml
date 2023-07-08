@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Numerical_systems" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Numerical_systems" parent="Base.Theme.Numerical_systems" />
+    <style name="EditText">
+        <item name="android:background">@drawable/shape</item>
+        <item name="android:state_active">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">42dp</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:padding">16dp</item>
+    </style>
+</resources>
